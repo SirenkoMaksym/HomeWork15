@@ -15,7 +15,6 @@ public class People {
         student.sayStudent();
         student.studentFagigkeit();
 
-
         System.out.println(doctor.name + " ist mein name. Ich bin " + doctor.beruf + ". Ich habe schon " +
                 doctor.erfahrung + " Jahren arbeiten als Artz ");
 

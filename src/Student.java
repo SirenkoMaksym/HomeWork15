@@ -8,7 +8,6 @@ name = nameStud;
 group = grupStud;
 age = ageStud;
 }
-
     void sayStudent(){
         System.out.println("Ich mache mein Hausaugaben");
     }

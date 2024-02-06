@@ -8,7 +8,6 @@ public class Teacher {
         fach = fachTeacher;
 
     }
-
     void teacherFahigkeit(){
         System.out.println("Ich erziene ");
     }

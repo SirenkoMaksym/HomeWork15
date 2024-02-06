@@ -10,7 +10,6 @@ public class Doctor {
     }
 
 
-
     void sayDoctor(){
         System.out.println("Du muss einnen Termin machen!");
     }
