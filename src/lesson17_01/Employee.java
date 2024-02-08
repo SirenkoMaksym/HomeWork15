@@ -50,6 +50,7 @@ public class Employee {
     }
 
     //Написать метод info() выводящий информацию о работнике.
+    // В этом случае правильно гетеры ставить? или зисы?
     public void infoEmployee() {
         Employee employee = new Employee();
         System.out.println("Нашего работника зовут: " + getName()
