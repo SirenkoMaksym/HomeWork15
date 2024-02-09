@@ -70,6 +70,6 @@ private double hochSpringen;
 
     public static void main(String[] args) {
         Co6aka dog = new Co6aka("Bobik", 1.1);
-        dog.barier(2);
+        dog.barier(3);
     }
 }
