@@ -10,7 +10,9 @@
  */
 
 public class Counter {
-    static int value;
+
+        int value;
+
 
     public Counter(int value) {
         this.value = value;
@@ -33,7 +35,12 @@ public class Counter {
         Counter counter= new Counter(5);
         counter.decrement();
         counter.getValue();
+        Counter counter1 = new Counter(7);
+        counter1.getValue();
+        counter.getValue();
 
     }
+
+
 
 }
