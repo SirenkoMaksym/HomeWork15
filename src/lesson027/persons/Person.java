@@ -104,9 +104,10 @@ public class Person {
             if (isCharValid == true)  k = true;
         }
 
-        if (x == true && y == true && z == true && k == true) {
-            return true;
-        }return false;
+        if (!(x == true && y == true && z == true && k == true)) {
+            return false;
+        }
+        return true;
 
     }
 
