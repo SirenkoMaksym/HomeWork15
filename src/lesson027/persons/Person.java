@@ -72,20 +72,20 @@ public class Person {
         for (int i = 0; i < password.length(); i++) {
             if (Character.isLowerCase(password.charAt(i))) {
                 return x = true;
-            } else return false;
+            }
         }
 
         for (int i = 0; i < password.length(); i++) {
             if (Character.isUpperCase(password.charAt(i))) {
                 return y = true;
-            } else return false;
+            }
 
         }
         for (int i = 0; i < password.length(); i++) {
             if (Character.isDigit(password.charAt(i))) {
 
                 return z = true;
-            } else return false;
+            }
 
         }
         for (int i = 0; i < password.length(); i++) {
@@ -103,10 +103,10 @@ public class Person {
                     || c == ']';
             if (isCharValid == true) return k = true;
         }
-        return false;
-        if (x == true && y == true && z == true && k == true &&) {
+
+        if (x == true && y == true && z == true && k == true) {
             return true;
-        }
+        }return false;
 
     }
 
