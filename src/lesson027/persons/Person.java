@@ -64,23 +64,28 @@ public class Person {
     public boolean isPasswordValid(String password) {
         //длина
         if (password.length() <= 8) return false;
+        boolean x = false;
+        boolean y = false;
+        boolean z = false;
+        boolean k = false;
 
         for (int i = 0; i < password.length(); i++) {
-            if (!Character.isLowerCase(password.charAt(i))) {
-                return false;
-            }
+            if (Character.isLowerCase(password.charAt(i))) {
+                return x = true;
+            } else return false;
         }
 
         for (int i = 0; i < password.length(); i++) {
-            if (!Character.isUpperCase(password.charAt(i))) {
-                return false;
-            }
+            if (Character.isUpperCase(password.charAt(i))) {
+                return y = true;
+            } else return false;
 
         }
         for (int i = 0; i < password.length(); i++) {
-            if (!Character.isDigit(password.charAt(i))) {
-                return false;
-            }
+            if (Character.isDigit(password.charAt(i))) {
+
+                return z = true;
+            } else return false;
 
         }
         for (int i = 0; i < password.length(); i++) {
@@ -96,9 +101,13 @@ public class Person {
                     || c == ')'
                     || c == '['
                     || c == ']';
-            if (!isCharValid) return false;
+            if (isCharValid == true) return k = true;
+        }
+        return false;
+        if (x == true && y == true && z == true && k == true &&) {
+            return true;
+        }
 
-        }return true;
     }
 
 
