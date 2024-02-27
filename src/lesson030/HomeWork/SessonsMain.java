@@ -14,40 +14,21 @@ public class SessonsMain {
 
     public static int middleTemp(String inputSessons) {
 
-        int juni = 25;
-        int juli = 30; //
-        int august = 28;
-
-        int september = 20;
-        int oktober = 10;
-        int november = 5;
-
-        int december = 2;
-        int january = -5;
-        int february = -12;
-
-        int march = 10;
-        int april = 15;
-        int may = 20;
-
-
-
         if (inputSessons.equals(Sessons.SUMMER.toString())) {
-            int summer = (juli + juni + august) / 3;
-            System.out.println(Sessons.SUMMER.getMiddleTempRussian() + summer);
-            return summer;
+            System.out.println(Sessons.SUMMER.getMiddleTempRussian()+ Sessons.SUMMER.getMiddleTemp());
+
         } else if (inputSessons.equals(Sessons.SPRING.toString())) {
-            int spring = (march + april + may) / 3;
-            System.out.println(Sessons.SPRING.getMiddleTempRussian() + spring);
-            return spring;
+
+            System.out.println(Sessons.SPRING.getMiddleTempRussian() + Sessons.SPRING.ordinal());
+
         } else if (inputSessons.equals(Sessons.WINTER.toString())) {
-            int winter = (december + january + february) / 3;
-            System.out.println(Sessons.WINTER.getMiddleTempRussian() + winter);
-            return winter;
+
+            System.out.println(Sessons.WINTER.getMiddleTempRussian() + Sessons.WINTER.ordinal());
+
         } else if (inputSessons.equals(Sessons.AUTUMN.toString())) {
-            int autumn = (september + oktober + november) / 3;
-            System.out.println(Sessons.AUTUMN.getMiddleTempRussian() + autumn);
-            return autumn;
+
+            System.out.println(Sessons.AUTUMN.getMiddleTempRussian() + Sessons.AUTUMN.ordinal());
+
         } else {
             System.out.println("Введите верно, большими английскими буквами!");
         }return 0;
