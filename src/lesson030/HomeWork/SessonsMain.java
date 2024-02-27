@@ -19,15 +19,15 @@ public class SessonsMain {
 
         } else if (inputSessons.equals(Sessons.SPRING.toString())) {
 
-            System.out.println(Sessons.SPRING.getMiddleTempRussian() + Sessons.SPRING.ordinal());
+            System.out.println(Sessons.SPRING.getMiddleTempRussian() + Sessons.SPRING.getMiddleTempRussian());
 
         } else if (inputSessons.equals(Sessons.WINTER.toString())) {
 
-            System.out.println(Sessons.WINTER.getMiddleTempRussian() + Sessons.WINTER.ordinal());
+            System.out.println(Sessons.WINTER.getMiddleTempRussian() + Sessons.WINTER.getMiddleTemp());
 
         } else if (inputSessons.equals(Sessons.AUTUMN.toString())) {
 
-            System.out.println(Sessons.AUTUMN.getMiddleTempRussian() + Sessons.AUTUMN.ordinal());
+            System.out.println(Sessons.AUTUMN.getMiddleTempRussian() + Sessons.AUTUMN.getMiddleTemp());
 
         } else {
             System.out.println("Введите верно, большими английскими буквами!");
