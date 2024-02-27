@@ -19,7 +19,7 @@ public class SessonsMain {
 
         } else if (inputSessons.equals(Sessons.SPRING.toString())) {
 
-            System.out.println(Sessons.SPRING.getMiddleTempRussian() + Sessons.SPRING.getMiddleTempRussian());
+            System.out.println(Sessons.SPRING.getMiddleTempRussian() + Sessons.SPRING.getMiddleTemp());
 
         } else if (inputSessons.equals(Sessons.WINTER.toString())) {
 
