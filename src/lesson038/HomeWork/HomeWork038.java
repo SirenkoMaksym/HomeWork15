@@ -38,7 +38,7 @@ public class HomeWork038 {
                 }
             }}
 
-            Set<String> wordOhneWieder = new TreeSet<>(list); // создаем новый Сет, с сортировкой и запихиваем
+            Set<String> wordOhneWieder = new HashSet<>(list); // создаем новый Сет, с сортировкой и запихиваем
             // в него получившийся лист, походу уничтожая копии
             List<String> newWordsList = new ArrayList<>(wordOhneWieder); //создаем новый лист куда идут последние слова
 
