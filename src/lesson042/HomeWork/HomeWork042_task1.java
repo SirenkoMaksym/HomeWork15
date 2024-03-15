@@ -47,6 +47,9 @@ public class HomeWork042_task1 {
             }
         }
         System.out.println(department + ": "+ maxMitteSalary);
+
+
+
     }
 
     private static void task2() {
